@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #000000;
+    width: 485px;
+    margin: 0 auto;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+main{
+    /* padding: 10px; */
+}
+h1{
+    color: #007d7b;
+    text-align: center;
+    font-variant: all-small-caps;
+    font-size: 3em;
+}
+nav{
+    background-color: #000000;
+    padding: 15px;
+    padding-left: 78px;
+}
+nav a{
+    text-decoration: none;
+    font-variant: all-small-caps;
+    padding: 20px;
+    font-size: 1.5em;
+    color: #ffffff;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+}
+h2{
+    font-size: 2em;
+    font-variant: all-small-caps;
+    text-align: center;
+}
+.galleryimgs{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.galleryimgs div{
+    text-align: center;
+}
+#contact{
+    background-color: #000000;
+    color:#ffffff;
+    text-align: center;
+}
+form{
+    display: grid;
+    justify-content: center;
+    /* gap: 10px; edit this */
+}
+footer{
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    font-variant: all-small-caps;
+    padding: 10px;
+}
